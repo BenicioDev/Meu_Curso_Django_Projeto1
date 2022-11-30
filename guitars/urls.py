@@ -1,9 +1,7 @@
 from django.urls import path
 
-from guitars.views import contato, home, sobre
+from guitars.views import home
 
 urlpatterns = [
     path('', home),  # home
-    path('contato/', contato),  # contatos
-    path('sobre/', sobre)  # sobre
 ]
