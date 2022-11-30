@@ -11,7 +11,7 @@ def home(request):
 
 
 def contato(request):
-    return HttpResponse('Contatos da página')
+    return render(request, 'contatos.html')
 
 
 def sobre(request):
