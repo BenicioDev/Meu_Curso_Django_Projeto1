@@ -6,4 +6,4 @@ from django.shortcuts import render
 def home(request):
     # Return solicita o render que recebe um request com o nome do Arquivo
     # HTML django, no caso 'home.html'
-    return render(request, 'home.html')
+    return render(request, 'pages/home.html')
