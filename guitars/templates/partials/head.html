@@ -119,6 +119,35 @@
             color: blue;
         }
 
+        .main-content {
+            padding-top: 0;
+        }
+
+        .main-content-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+            gap: 4rem;
+        }
+
+        .guitar {
+            background: white;
+            box-shadow: -5px 5px 10px rgba(0, 0, 0, .5);
+            transition: all 300ms ease-in-out;
+            transform: scale(1);
+        }
+
+        .guitar img {
+            max-width: 100%;
+        }
+
+        .guitar-list-item {
+            max-width: 40rem;
+        }
+
+        .guitar-list-item:hover {
+            transform: scale(1.02);
+        }
+
     </style>
 
 </head>
