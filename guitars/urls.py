@@ -1,7 +1,8 @@
 from django.urls import path
 
-from guitars.views import home
+from . import views
 
 urlpatterns = [
-    path('', home),  # home
+    path('', views.home),  # home
+    path('guitars/<int:id>/', views.guitars),
 ]
