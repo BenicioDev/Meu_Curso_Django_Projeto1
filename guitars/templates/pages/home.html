@@ -1,15 +1,14 @@
-{% include 'partials/head.html' %}
-
-<body>
-    {% include 'partials/header.html' %}
-    {% include 'partials/search_container.html' %}
-
-    <main class='main-content-container'>
-        <div class="main-content main-content-list container">
-            {% include 'partials/guitar.html' %}
-        </div>
-    </main>
-    {% include 'partials/footer.html' %}
-</body>
-
-</html>
+{% extends 'global/base.html' %}
+{% block content %}
+<div class="main-content main-content-list container">
+    {% include 'partials/guitar.html' %}
+    {% include 'partials/guitar.html' %}
+    {% include 'partials/guitar.html' %}
+    {% include 'partials/guitar.html' %}
+    {% include 'partials/guitar.html' %}
+    {% include 'partials/guitar.html' %}
+    {% include 'partials/guitar.html' %}
+    {% include 'partials/guitar.html' %}
+    {% include 'partials/guitar.html' %}
+</div>
+{% endblock content %}
