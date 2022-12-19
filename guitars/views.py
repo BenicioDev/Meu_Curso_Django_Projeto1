@@ -10,4 +10,4 @@ def home(request):
 
 
 def guitars(request, id):
-    return render(request, 'pages/guitars.view.html')
+    return render(request, 'pages/guitars-view.html')
